@@ -13,7 +13,6 @@ public class getclass {
 		String baseURI=Routes.baseURI();
 	    String resource=Routes.resource1();
 	    
-	    
 	    int statusCode= usercommonfunction.statusCode1(baseURI,resource);
 	    String responseBody= usercommonfunction.responsBody1(baseURI,resource);
 	    
